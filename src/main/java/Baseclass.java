@@ -9,14 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+//import org.testng.annotations.AfterClass;
+//import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.BeforeClass;
+//import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.BeforeSuite;
+//import org.testng.annotations.Parameters;
 
-import com.beust.jcommander.Parameter;
+
 //import com.comcast.FidusiaObjectRepsitory.loginPage;
 
 
@@ -37,15 +37,15 @@ public class Baseclass
 	
 	
 	public static WebDriver sdriver;
-	@BeforeSuite(alwaysRun = true)
-	public void connectToDB() throws SQLException
-	{
-		//dbUl.connectDB();
-		Reporter.log("----Connect To DataBase----", true);
-	}
+//	//@BeforeSuite(alwaysRun = true)
+//	public void connectToDB() throws SQLException
+//	{
+//		//dbUl.connectDB();
+//		//Reporter.log("----Connect To DataBase----", true);
+//	}
 	
 	//@Parameters("BROWSER")
-	@BeforeClass(alwaysRun = true)
+	//@BeforeClass(alwaysRun = true)
 	public void launchbrowser1(String Browser) throws IOException
 	//public void launchbrowser() throws IOException
 	{
@@ -76,11 +76,11 @@ public class Baseclass
 //		wdu.waitForPageLoad(driver, 20);
 		
 	}	
-		
-		@BeforeMethod(alwaysRun = true)
-		public void logintoApp() throws IOException
-		{
-			String URL=System.getProperty("url");
+//		
+//		@BeforeMethod(alwaysRun = true)
+//		public void logintoApp() throws IOException
+//		{
+//			String URL=System.getProperty("url");
 //			String URL=fUl.readDataFromPropertyFile("url");
 //			String USERNAME= fUl.readDataFromPropertyFile("username");
 //			String PASSWORD=fUl.readDataFromPropertyFile("password");
@@ -107,6 +107,7 @@ public class Baseclass
 //			Reporter.log("----close the browser-----, true");
 //		}
 	}
-}
+
+
 	
 
