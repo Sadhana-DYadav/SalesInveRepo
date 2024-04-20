@@ -7,6 +7,7 @@ public class AdminTest extends Baseclass
 	{
 		System.out.println("dd");
 		System.out.println("ad");
+		System.out.println("bbbd");
 	}
 
 }
