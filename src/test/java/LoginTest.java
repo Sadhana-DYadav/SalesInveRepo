@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class LoginTest 
+public class LoginTest extends Baseclass
 {
 	 @Test
 	 public void login()

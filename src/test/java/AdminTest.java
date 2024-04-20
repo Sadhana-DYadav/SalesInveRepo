@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class AdminTest
+public class AdminTest extends Baseclass
 {
 	@Test
 	public void logoutTest()
