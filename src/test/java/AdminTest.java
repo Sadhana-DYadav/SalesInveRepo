@@ -6,6 +6,7 @@ public class AdminTest
 	public void logoutTest()
 	{
 		System.out.println("dd");
+		System.out.println("ad");
 	}
 
 }
